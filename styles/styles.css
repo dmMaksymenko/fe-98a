@@ -63,6 +63,7 @@ color: #FD9222;
 .header {
   padding-top: 20px;
   padding-bottom: 20px;
+  
 }
 
 .header-logo {
@@ -71,20 +72,27 @@ color: #FD9222;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: -0.03em;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
 }
 .header-logo-italic {
   font-style: italic;
 }
-.header-menu {}
+.header-menu {
+  display: flex;
+  gap: 24px;
+}
 
 .header-menu-list {}
 
 .header-menu-link {
-    color: #111;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: -0.02em;
+  color: #111;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
