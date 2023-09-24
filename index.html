@@ -14,7 +14,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header-container">
             <nav class="header-navigation">
             <a class="header-logo link" href=""><span class="header-logo-italic">SIMPLY</span> CHOCOLATE <img src="/images/logo.svg" alt="site "></a>
             <ul class="header-menu list">
@@ -28,12 +28,12 @@
                     <a class="header-menu-link link" href="#loved">Chocolate is loved</a>
                 </li>
             </ul>
+            </nav>
             <ul class="header-soc list">
                 <li class="header-soc-item"><a class="header-soc-link link" href="" target="_blank" rel="noopener noreferrer">Instagram</a></li>
                 <li class="header-soc-item"><a class="header-soc-link link" href="" target="_blank" rel="noopener noreferrer">Facebook</a></li>
                 <li class="header-soc-item"><a class="header-soc-link link" href="" target="_blank" rel="noopener noreferrer">Twitter</a></li>
             </ul>
-            </nav>
         </div>
     </header>
     <main>
@@ -42,9 +42,11 @@
                 <h1 class="hero-title">Treat yourself or a loved one to
                 our finest ingredients for a moment
                 of pure delight!</h1>
-                <button class="hero-buy-btn" type="button">Buy now</button>
-                <a href="#made" class="hero-anchor-btn link">How it’s made?</a>
-                <a href="#footer" class="hero-bottom-btn link">Scroll down</a>
+                <div class="hero-btn">
+                    <button class="hero-buy-btn" type="button">Buy now</button>
+                    <a href="#made" class="hero-anchor-btn link">How it’s made?</a>
+                    <a href="#footer" class="hero-bottom-btn link">Scroll down</a>
+                </div>
             </div>
         </section>
         <section class="features">
@@ -98,8 +100,8 @@
                 <li class="taste-item">
                     <img src="/images/taste-img-6.png" alt="RASPBERRY" width="214" height="160" class="taste-img">
                     <h3 class="taste-subtitle">RASPBERRY</h3>
-                </li class="taste-item">
-                <li>
+                </li>
+                <li class="taste-item">
                     <img src="/images/taste-img-7.png" alt="COCONUT OIL" width="214" height="160" class="taste-img">
                     <h3 class="taste-subtitle">COCONUT OIL</h3>
                 </li>
@@ -113,26 +115,30 @@
         <section id="made" class="made">
             <div class="container">
             <h2 class="made-title section-title">How it’s <span>made?</span></h2>
-                <img src="./images/chock-image-1.jpg" alt="liquid chocolate" width="600" height="400" class="made-img">
-                <h3 class="made-subtitle">Try our chocolates today and discover the perfect balance of flavor</h3>
-                <ul class="made-list list">
-                    <li class="made-item">
-                        <p class="made-item-text">Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</p>
-                    </li>
-                    <li class="made-item">
-                        <p class="made-item-text">At the same time, prepare a water bath. Melt the butter on it.</p>
-                    </li>
-                    <li class="made-item">
-                        <p class="made-item-text">"Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula so that the mass becomes
-                    uniform and silky.</p>
-                </li>
-                    <li class="made-item">
-                        <p class="made-item-text">Heat the mixture over low heat, letting it barely boil.</p>
-                    </li>
-                    <li class="made-item">
-                        <p class="made-item-text">Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and harden.</p>
-                    </li>
-                </ul>
+                <div class="made-wrap">
+                    <img src="./images/chock-image-1.jpg" alt="liquid chocolate" width="600" height="400" class="made-img">
+                    <div class="made-content">
+                        <h3 class="made-subtitle">Try our chocolates today and discover the perfect balance of flavor</h3>
+                        <ul class="made-list list">
+                            <li class="made-item">
+                                <p class="made-item-text">Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</p>
+                            </li>
+                            <li class="made-item">
+                                <p class="made-item-text">At the same time, prepare a water bath. Melt the butter on it.</p>
+                            </li>
+                            <li class="made-item">
+                                <p class="made-item-text">"Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula so that the mass becomes
+                            uniform and silky.</p>
+                        </li>
+                            <li class="made-item">
+                                <p class="made-item-text">Heat the mixture over low heat, letting it barely boil.</p>
+                            </li>
+                            <li class="made-item">
+                                <p class="made-item-text">Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and harden.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
                 </div>
         </section>
         <section class="products">
